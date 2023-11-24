@@ -138,8 +138,10 @@ On a ajouté le dossier security qui contient les éléments suivants :
 
 ![secu1](captures/security_doss.png)
 
-## Base de données (MySQL)
-Notre base de données :
+## Base de données 
+Notre projet peut fonctionner soit avec la base de données H2 ou MySQL comme il est montré au dessous:
+![properties](captures/dataBase.png)
+Notre base de données utilisée MySQL :
 ![db1](captures/db.png)
 * Table patient
   ![db2](captures/bd2.png)
