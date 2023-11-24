@@ -12,11 +12,16 @@
 </head>
 <body>
 <div layout:fragment="content1">
-    <form method="post" th:action="@{save}">
+    <form method="post" th:action="@{/admin/save}">
         <div class="m-3">
             <label for="nom">Nom</label>
             <input id="nom" class="form-control" type="text" name="nom" th:value="${patient.nom}">
             <span class="text-danger" th:errors="${patient.nom}"></span>
+        </div>
+        <div class="m-3">
+            <label for="prenom">Nom</label>
+            <input id="prenom" class="form-control" type="text" name="prenom" th:value="${patient.prenom}">
+            <span class="text-danger" th:errors="${patient.prenom}"></span>
         </div>
         <div class="m-3">
             <label for="dateNaissance">Date de naissance</label>

@@ -10,13 +10,9 @@
         <module name="patients_mvc" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hopital_web" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="hopital_web" options="-parameters" />
       <module name="patients_mvc" options="-parameters" />
     </option>
   </component>
